@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/connection_failed"
+        android:textColor="#ffa799ff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/network_try_again"
+        android:textColor="#ffa196e4"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_retry"
+        android:layout_width="102dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_retry"
+        android:gravity="center"
+        android:text="@string/retry"
+        android:textColor="@android:color/white"
+        android:textSize="17sp" />
+</LinearLayout>

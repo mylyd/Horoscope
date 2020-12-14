@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_horoscope_header"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_horoscope_icon"
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/ic_aquarius_1" />
+
+        <TextView
+            android:id="@+id/tv_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_horoscope_name_selector"
+            android:drawableRight="@drawable/ic_horoscope_option"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:text="@string/aquarius"
+            android:textColor="@drawable/btn_text_selector"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="@android:color/transparent"
+            android:paddingBottom="4dp"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#D8D8D8"
+            app:tabIndicatorFullWidth="false"
+            app:tabMode="scrollable"
+            app:tabPaddingBottom="8dp"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabTextAppearance="@style/HoroscopeTabLayoutTextStyle"
+            app:tabTextColor="@color/gray_text_color" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/layout_network_error"
+            layout="@layout/layout_network_error"
+            android:visibility="invisible" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+    </FrameLayout>
+</LinearLayout>

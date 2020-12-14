@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.mobo.horoscope.view.UnTouchScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#281351"
+        android:paddingTop="6dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/tv_tab_horoscope"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/tab_horoscope_selector"
+            android:drawablePadding="1dp"
+            android:gravity="center"
+            android:text="@string/horoscope"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_tab_feature"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/tab_feature_selector"
+            android:drawablePadding="1dp"
+            android:gravity="center"
+            android:text="@string/feature"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_tab_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:drawableTop="@drawable/tab_setting_selector"
+            android:drawablePadding="1dp"
+            android:gravity="center"
+            android:text="@string/setting"
+            android:textColor="@drawable/tab_text_selector"
+            android:textSize="9sp" />
+    </LinearLayout>
+</LinearLayout>

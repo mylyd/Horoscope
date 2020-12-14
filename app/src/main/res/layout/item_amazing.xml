@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_amazing_name_text_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="t"
+            android:textAllCaps="true"
+            android:gravity="left|center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_amazing_name_text_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" for assertive"
+            android:textAllCaps="false"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"/>
+
+</LinearLayout>

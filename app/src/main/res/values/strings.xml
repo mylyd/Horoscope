@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Daily Horoscope Pro 2019</string>
+
+    <!--Horoscope Selector-->
+    <string name="select_your_zodiac_sign">Select Your Zodiac Sign</string>
+    <string name="select_your_birthday">Select your birthday</string>
+    <string name="get_started_now">GET STARTED NOW</string>
+    <string name="read_and_accept"><!--&#160;&#160;&#160;-->I’ve read and accepted the </string>
+    <string name="privacy_policy">Privacy Policy.</string>
+    <string name="confirm">CONFIRM</string>
+
+    <!--Horoscope-->
+    <string name="horoscope">Horoscope</string>
+    <string name="feature">Feature</string>
+    <string name="setting">Setting</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+
+    <string name="sex">Sex</string>
+    <string name="hustle">Hustle</string>
+    <string name="vibe">Vibe</string>
+    <string name="success">Success</string>
+
+    <string name="love">LOVE</string>
+    <string name="friendship">FRIENDSHIP</string>
+    <string name="carrer">CAREER</string>
+
+    <string name="today_star_rating">Star Ratings</string>
+    <string name="today_matches">Matches</string>
+    <string name="today_analysis">Analysis</string>
+    <string name="today_love">Love</string>
+    <string name="today_career">Career</string>
+    <string name="today_health">Health</string>
+    <string name="read_more">Read More…</string>
+    <string name="watch_video_to_unlock">Watch Video To Unlock</string>
+
+    <string name="network_try_again">Could not connect to the network, \nPlease check and try again.</string>
+    <string name="connection_failed">Connection Failed</string>
+    <string name="retry">Retry</string>
+
+    <string name="ads_video_loading">Ads Video Loading ...</string>
+    <string name="ads_load_failed">ads loading failed</string>
+
+    <!--Setting-->
+    <string name="setting_title">* Setting *</string>
+    <string name="notification">Notification</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="feedback">FeedBack</string>
+    <string name="feedback_success">feedback success</string>
+    <string name="feedback_failed">feedback failed</string>
+    <string name="your_email">Email</string>
+    <string name="your_suggestion">Suggestion</string>
+    <string name="submit">SUBMIT</string>
+    <string name="rate_us_remind_text">You have already experienced the core functions of the product, how do you feel?</string>
+    <string name="feedback_remind_text">We sincerely look forward to your feedback.</string>
+    <string name="invite_remind_text">Recommend us to your friends !</string>
+    <string name="invite_content_title">Daily Horoscope-Free Zodiac Sign &amp; Astrology .</string>
+    <string name="invite_content_des">Accurate horoscope prediction&amp;Love compatibility, most fashionable app in Android .</string>
+    <string name="invite_content">Daily Horoscope-Free Zodiac Sign &amp; Astrology .
+                Accurate horoscope prediction&amp;Love compatibility, most fashionable app in Android .
+                DownLoad it now: </string>
+
+    <string name="check_your_network">please check your network</string>
+    <string name="share_to_facebook">Share to Facebook</string>
+    <string name="share_success">share success</string>
+    <string name="share_failed">share failed</string>
+
+    <!--Feature-->
+    <string name="feature_title">* Feature *</string>
+    <string name="compatibility">Compatibility</string>
+    <string name="characteristic">Characteristic</string>
+    <string name="check_compatibility">Check Compatibility</string>
+    <string name="compatibility_result">Compatibility Results</string>
+    <string name="characteristic_detail">Characteristic Detail</string>
+    <string name="select">SELECT</string>
+
+    <string name="analysis">%s Analysis</string>
+    <string name="motto">%s Motto</string>
+    <string name="amazing_name">%s are amazing! Their name says it all:</string>
+    <string name="facts">%s Facts</string>
+    <string name="element">Element: %s</string>
+    <string name="gem">Lucky Gem: %s</string>
+    <string name="polarity">Polarity: %s</string>
+    <string name="flower">Flower: %s</string>
+    <string name="color">Spirit Color: %s</string>
+    <string name="match_pair">%s Match %s</string>
+
+    <!--推送文案-->
+    <string name="notify_ticker">you have new message</string>
+
+    <string name="_16_aug_libra_you_have_an_amazing_horoscope_today">16 Aug. %s. You have an amazing horoscope today</string>
+    <string name="aries_motto_dream_big_or_go_home">%s Motto“Dream big or go home.”</string>
+    <string name="aries_are_amazing_their_name_says_it_all">%s are amazing! Their name says it all...</string>
+    <string name="discover_what_the_future_holds_for_you">Discover what the future holds for you.</string>
+    <string name="a_friend_of_yours_checks_your_horoscope_for_the_day">A friend of yours checks your horoscope for the day</string>
+    <string name="test_your_compatibility_with_his_horoscope">Test your compatibility with his horoscope!</string>
+    <string name="millionaires_don_t_use_astrology_billionaires_do_j_p_morgan">“Millionaires don\'t use Astrology, billionaires do.” ― J.P. Morgan</string>
+
+    <!--白羊座-->
+    <string name="aries">Aries</string>
+    <!--金牛座-->
+    <string name="taurus">Taurus</string>
+    <!--双子座-->
+    <string name="gemini">Gemini</string>
+    <!--巨蟹座-->
+    <string name="cancer">Cancer</string>
+    <!--狮子座-->
+    <string name="leo">Leo</string>
+    <!--处女座-->
+    <string name="virgo">Virgo</string>
+    <!--天秤座-->
+    <string name="libra">Libra</string>
+    <!--天蝎座-->
+    <string name="scorpio">Scorpio</string>
+    <!--人马座-->
+    <string name="sagittarius">Sagittarius</string>
+    <!--摩羯座-->
+    <string name="capricorn">Capricorn</string>
+    <!--水瓶座-->
+    <string name="aquarius">Aquarius</string>
+    <!--双鱼座-->
+    <string name="pisces">Pisces</string>
+
+    <!--测试广告id-->
+    <!--<string name="gms_app_id">ca-app-pub-3940256099942544~3347511713</string>-->
+    <!--<string name="today_native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--<string name="yesterday_native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--<string name="mapping_detail_native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--<string name="setting_native_id">ca-app-pub-3940256099942544/2247696110</string>-->
+    <!--<string name="tomorrow_rewarded_id">ca-app-pub-3940256099942544/5224354917</string>-->
+    <!--<string name="mapping_banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <!--正式广告id-->
+    <string name="gms_app_id">ca-app-pub-1502322555229195~8128800135</string>
+    <string name="today_native_id">ca-app-pub-1502322555229195/2684901764</string>
+    <string name="yesterday_native_id">ca-app-pub-1502322555229195/4546253121</string>
+    <string name="mapping_detail_native_id">ca-app-pub-1502322555229195/6406129701</string>
+    <string name="setting_native_id">ca-app-pub-1502322555229195/1780488987</string>
+    <string name="tomorrow_rewarded_id">ca-app-pub-1502322555229195/1920089788</string>
+    <string name="mapping_banner_id">ca-app-pub-1502322555229195/2850028072</string>
+
+    <!--695004127578036===2363541590631728-->
+    <!--分享id-->
+    <string name="facebook_app_id">2363541590631728</string>
+    <string name="fb_login_protocol_scheme">fb2363541590631728</string>
+</resources>
